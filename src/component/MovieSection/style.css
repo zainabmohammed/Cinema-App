@@ -1,0 +1,63 @@
+.tap-movie {
+  color: #eeee;
+}
+.tap-movie .container-movie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tap-movie .container-movie h1 {
+  font-size: 25px !important;
+}
+.tap-movie .container-movie .dot {
+  font-size: 40px;
+  font-weight: bolder;
+
+
+}
+
+.movie-section .list {
+  display: inline-flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.movie-section .list .card {
+  width: 180px;
+  height: 278px;
+  background-color: rgb(18, 31, 64);
+  border-radius: 5px;
+}
+
+.movie-section .list .card .image {
+  width: 100%;
+
+  height: 240px;
+}
+
+.movie-section .list .card .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.movie-section .list .card p {
+  color: #e5e4e4;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 8px !important;
+}
+.movie-section .section-scroll {
+  overflow-x: auto;
+ 
+}
+.movie-section .section-scroll::-webkit-scrollbar{
+    display: none;
+    
+}
+.movie-section .section-scroll{
+-ms-overflow-style: none;  
+  scrollbar-width: none;
+}

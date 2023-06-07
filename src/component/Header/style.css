@@ -1,0 +1,64 @@
+.header-movie {
+  background-color: rgb(18, 31, 64);
+}
+
+.header-movie .content-movie {
+  display: flex;
+ 
+  
+}
+
+.header-movie .content-movie .text-movie {
+  flex: 1;
+}
+
+.header-movie .text-movie h1 {
+  font-size: 17px;
+  color: #e5e4e4;
+  padding-top: 5px;
+}
+.header-movie .text-movie  .dash{
+  background-color: rgb(216, 145, 12);
+  padding-top: 2.5px;
+  width: 17px;
+  margin-left: 25px;
+  
+
+}
+.header-movie .text-movie  .dash-under{
+  background-color: rgb(216, 145, 12);
+  padding-top: 2px;
+  width: 17px;
+  margin-left: 25px;
+  margin-top: 7px;
+ 
+
+}
+
+
+.header-movie .input-move {
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.header-movie .input-movie input {
+  border: none;
+  outline: none;
+  border: 1px soild #eee;
+  padding-left: 20px;
+  padding-right: 55px;
+  height: 32px;
+  font-size: 15px;
+}
+.header-movie .search {
+  flex-direction: column;
+  background-color: #fff;
+  height: fit-content;
+  border-radius: 20px;
+  padding-right: 15px;
+  background-color: rgb(57, 69, 81);
+  color: beige;
+}
+
+

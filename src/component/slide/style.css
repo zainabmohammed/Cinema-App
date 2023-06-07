@@ -1,0 +1,68 @@
+.main .cover {
+  height: 55vh;
+  background-position: center;
+  background-size: cover;
+  background-position: top;
+}
+
+.main .logo {
+  color: #e5e4e4;
+  padding-top: 20vh;
+}
+.main .text-cover {
+  color: #e5e4e4;
+  font-size: 20px;
+}
+.main .data {
+  color: rgb(216, 145, 12);
+  font-size: 20px;
+}
+.main .show-movie {
+  color: #e5e4e4;
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+.main .show-movie p {
+  color: #e5e4e4;
+  padding-bottom: 3px;
+  margin-left: 10px !important;
+}
+
+.main .show-movie span {
+  font-size: 23px;
+}
+
+.main {
+  position: relative;
+ 
+}
+.main .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: linear-gradient(#06060617, rgba(5, 2, 22, 0.951));
+  
+}
+.main .show-count{
+  display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.main .count-slide button {
+  background-color: rgb(188, 109, 5) !important;
+  color: #fff;
+  font-size: 12px;
+  margin-left: 6px;
+  margin-right: 5px;
+
+
+ 
+}
+.main .count-slide span {
+  color: #fff;
+  padding: 8;
+}
