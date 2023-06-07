@@ -6,7 +6,7 @@ const Slide = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [data, setData] = useState([]);
 
-  
+  //This is Murtadha branch
 
   const getSlider = () => {
     fetch(
