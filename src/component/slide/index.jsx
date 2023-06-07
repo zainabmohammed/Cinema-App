@@ -6,6 +6,8 @@ const Slide = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [data, setData] = useState([]);
 
+  
+
   const getSlider = () => {
     fetch(
       "https://api.themoviedb.org/3/movie/now_playing?api_key=b4c9bfd59aa4b6828f5c88e5093bc2f2"
