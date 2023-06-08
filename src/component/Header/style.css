@@ -62,3 +62,23 @@
 }
 
 
+ @media (max-width: 328px) {
+  .header-movie .input-movie input 
+  {
+    border: none;
+    outline: none;
+    border: 1px soild #eee;
+    padding-left: 12px;
+    padding-right: 20px;
+    height: 25px;
+    font-size: 12px;
+
+  }
+  .header-movie .text-movie h1 {
+    font-size: 10px;
+    color: #e5e4e4;
+    padding-top: 5px;
+    padding-left: 10px  }
+ 
+  
+}
